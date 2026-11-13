@@ -23,7 +23,7 @@
 ## 작업 규칙
 - 동작을 바꾸면 `test/`에 테스트를 함께 추가하고 `npm test` 통과를 확인한다
 - 커밋 메시지: Conventional Commits (`feat:`, `fix:`, `test:`, `chore:`, `docs:`), 본문은 한국어
-- 브랜치: `main`에서 `feat/<주제>` 브랜치를 만들어 작업
+- 브랜치: `master`에서 `feat/<주제>` 브랜치를 만들어 작업
 
 ## 주의사항
 - `.env`는 읽거나 출력하지 않는다 (settings의 `permissions.deny`로도 차단됨)
