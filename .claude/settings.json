@@ -1,15 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm test)",
-      "Bash(node --test:*)",
-      "Bash(git status:*)",
-      "Bash(git diff:*)",
-      "Bash(git log:*)"
+      "Bash(npm test *)",
+      "Bash(node --test*)", 
+      "Bash(git status)", 
+      "Bash(git diff*)"
     ],
     "deny": [
-      "Read(./.env)",
-      "Read(./.env.*)"
+      "Read(.env*)", 
+      "Bash(curl *)", 
+      "Bash(rm -rf *)"
     ]
   }
 }
